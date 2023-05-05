@@ -1,0 +1,7 @@
+test1使用了简单的request库就获取到了数据。
+提交了一下请求，观察请求发送的数据并构造请求，之后解析json并保存到csv。
+本来应该10分钟就能完成，结果post请求一直失败，不知道为什么，后来上传项目的时候git又连接不上：
+fatal: unable to access 'https://github.com/CYO1266/orbitfin_test.git/': Failed to connect to github.com port 443 after 21114 ms: Couldn't connect to server
+提交了20分钟才提交上项目。
+
+test2更简单，读csv数据，读的同时加入列表，计数，输出。
